@@ -1,0 +1,56 @@
+.thermometer_container {
+    width: 160px;
+    height: 618px;
+    display: block;
+    position: relative;
+    margin: 40px auto;
+}
+
+.thermometer {
+    border: 10px solid #5C525F;
+    border-bottom: transparent;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    width: 80px;
+    height: 472px;
+    border-radius: 50px 50px 0 0;
+    background: #FFF;
+}
+
+.base {
+    box-shadow: 0 0 0 12px #FFF, 0 0 0 20px #5C525F; 
+    background: #c93d12;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    line-height: 120px;
+    color: #FFF;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.stem {
+    background: #EFEFEF;
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 464px;
+    border-radius: 10px 10px 0 0;
+    margin: 10px auto;
+}
+
+.stem .fluid {
+    background: #c93d12;
+    display: block;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    bottom: 0;
+}
