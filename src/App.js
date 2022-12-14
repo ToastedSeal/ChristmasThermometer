@@ -5,7 +5,7 @@ import Thermometer from './Thermometer/thermometer';
 
 function App() {
   const [goal, setCurrentGoal] = useState(2000);
-  const [currentBalance, setCurrentBalance] = useState(435);
+  const [currentBalance, setCurrentBalance] = useState(1800);
 
   useEffect(() => {
     (async() => {
